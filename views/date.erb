@@ -5,6 +5,6 @@
   </head>
   <body>
    <h1>Today</h1>
-   <p><% date = Datetime.parse %> "The date is "<%=date.strftime('%A, %B %d, %y')%>  </p>
+   <p><% date = Datetime.now.parse %> "The date is "<%=date.strftime('%A, %B %d, %y')%>  </p>
   </body>
 </html>
